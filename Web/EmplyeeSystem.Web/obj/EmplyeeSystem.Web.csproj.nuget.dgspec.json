@@ -1,0 +1,626 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web\\EmplyeeSystem.Web.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj",
+        "projectName": "EmplyeeSystem.Data.Common",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj",
+        "projectName": "EmplyeeSystem.Data.Models",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data\\EmplyeeSystem.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data\\EmplyeeSystem.Data.csproj",
+        "projectName": "EmplyeeSystem.Data",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data\\EmplyeeSystem.Data.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj",
+        "projectName": "EmplyeeSystem.Common",
+        "projectPath": "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj",
+        "projectName": "EmplyeeSystem.Services.Data",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Common\\EmplyeeSystem.Data.Common.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj",
+        "projectName": "EmplyeeSystem.Services.Mapping",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web.ViewModels\\EmplyeeSystem.Web.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web.ViewModels\\EmplyeeSystem.Web.ViewModels.csproj",
+        "projectName": "EmplyeeSystem.Web.ViewModels",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web.ViewModels\\EmplyeeSystem.Web.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web\\EmplyeeSystem.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web\\EmplyeeSystem.Web.csproj",
+        "projectName": "EmplyeeSystem.Web",
+        "projectPath": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web\\EmplyeeSystem.Web.csproj",
+        "packagesPath": "C:\\Users\\TUF\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\TUF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data.Models\\EmplyeeSystem.Data.Models.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data\\EmplyeeSystem.Data.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Data\\EmplyeeSystem.Data\\EmplyeeSystem.Data.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Data\\EmplyeeSystem.Services.Data.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Services\\EmplyeeSystem.Services.Mapping\\EmplyeeSystem.Services.Mapping.csproj"
+              },
+              "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web.ViewModels\\EmplyeeSystem.Web.ViewModels.csproj": {
+                "projectPath": "D:\\Projects C#\\immedisTask\\Web\\EmplyeeSystem.Web.ViewModels\\EmplyeeSystem.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BuildBundlerMinifier": {
+              "target": "Package",
+              "version": "[3.2.449, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.Web.LibraryManager.Build": {
+              "target": "Package",
+              "version": "[2.1.113, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.312, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

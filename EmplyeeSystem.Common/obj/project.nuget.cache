@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "/q+yW7YuKZZR0zkjw6g4cu96HJV1C2TmEtmWXgqoGJ3tSTK6mHvwxPqzjwSiXSBr6oJrUEd0Uo/+2atEXInsPQ==",
+  "success": true,
+  "projectFilePath": "D:\\Projects C#\\immedisTask\\EmplyeeSystem.Common\\EmplyeeSystem.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TUF\\.nuget\\packages\\stylecop.analyzers\\1.2.0-beta.312\\stylecop.analyzers.1.2.0-beta.312.nupkg.sha512",
+    "C:\\Users\\TUF\\.nuget\\packages\\stylecop.analyzers.unstable\\1.2.0.312\\stylecop.analyzers.unstable.1.2.0.312.nupkg.sha512"
+  ],
+  "logs": []
+}

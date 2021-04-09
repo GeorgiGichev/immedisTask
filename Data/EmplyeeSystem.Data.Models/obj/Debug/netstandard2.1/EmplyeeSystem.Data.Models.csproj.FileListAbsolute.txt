@@ -1,0 +1,12 @@
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\bin\Debug\netstandard2.1\EmplyeeSystem.Data.Models.deps.json
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\bin\Debug\netstandard2.1\EmplyeeSystem.Data.Models.dll
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\bin\Debug\netstandard2.1\EmplyeeSystem.Data.Models.pdb
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\bin\Debug\netstandard2.1\EmplyeeSystem.Data.Common.dll
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\bin\Debug\netstandard2.1\EmplyeeSystem.Data.Common.pdb
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.csprojAssemblyReference.cache
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.AssemblyInfoInputs.cache
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.AssemblyInfo.cs
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.csproj.CoreCompileInputs.cache
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.csproj.CopyComplete
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.dll
+D:\Projects C#\immedisTask\Data\EmplyeeSystem.Data.Models\obj\Debug\netstandard2.1\EmplyeeSystem.Data.Models.pdb
